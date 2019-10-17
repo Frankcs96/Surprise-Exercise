@@ -38,21 +38,21 @@ public class SurpriseExercise {
     
     for (int y = 0; y < numberOfHourglass; y++) {
     
-     for (int i = 0; i < height / 2 + 1; i++) {
+      for (int i = 0; i < height / 2 + 1; i++) {
        
        
-       for (int k = 0; k < i; k++) {
-         System.out.print(" ");
+        for (int k = 0; k < i; k++) {
+          System.out.print(" ");
          
-       }
+        }
        
-       for (int j = 1; j <= height - 2 * i; j++) {
-         System.out.print(character);
+        for (int j = 1; j <= height - 2 * i; j++) {
+          System.out.print(character);
          
          
-       }
+        }
        
-       System.out.println();
+        System.out.println();
        
      }
      
