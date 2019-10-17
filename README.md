@@ -3,7 +3,7 @@ This a surprise exercise from my programming subject.
 The purpouse is only to practice for our first exam.
 
 First we ask the user for some parameters.
-![first image](firstScreen.png)
+[Imgur Image](https://imgur.com/5OcgUnQ.png)
 
 
 
