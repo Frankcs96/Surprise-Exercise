@@ -11,7 +11,7 @@ public class SurpriseExercise {
     int numberOfHourglass;
     
     do {
-      System.out.println("Introduzca la altura inicial: ");
+      System.out.print("Introduzca la altura inicial: ");
       height = sc.nextInt();
       sc.nextLine();
       if ((height < 3) || (height % 2 == 0)) {
@@ -20,11 +20,11 @@ public class SurpriseExercise {
       
     } while (height < 3 || height % 2 == 0);
     
-    System.out.println("Introduzca el caracter para pintar");
+    System.out.print("Introduzca el caracter para pintar: ");
     character = sc.nextLine();
     
     do {
-      System.out.println("Introduzca el incremento de la altura");
+      System.out.print("Introduzca el incremento de la altura: ");
       heightIncrement = sc.nextInt();
       
       if (heightIncrement % 2 != 0) {
@@ -33,7 +33,7 @@ public class SurpriseExercise {
     } while (heightIncrement % 2 != 0);
     
     
-    System.out.println("Introduzca el numero de veces que desea dibujar el reloj");
+    System.out.print("Introduzca el numero de veces que desea dibujar el reloj: ");
     numberOfHourglass = sc.nextInt();
     
     for (int y = 0; y < numberOfHourglass; y++) {
