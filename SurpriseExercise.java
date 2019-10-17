@@ -11,29 +11,29 @@ public class SurpriseExercise {
     int numberOfHourglass;
     
     do {
-      System.out.print("Introduzca la altura inicial: ");
+      System.out.print("Enter a starting height: ");
       height = sc.nextInt();
       sc.nextLine();
       if ((height < 3) || (height % 2 == 0)) {
-        System.out.println("no es valido, debe ser impar y mayor o igual que 3");
+        System.out.println("Wrong input... It should be odd and larger or equal than 3");
       }
       
     } while (height < 3 || height % 2 == 0);
     
-    System.out.print("Introduzca el caracter para pintar: ");
+    System.out.print("Enter a character for drawing: ");
     character = sc.nextLine();
     
     do {
-      System.out.print("Introduzca el incremento de la altura: ");
+      System.out.print("Enter the increment of the height: ");
       heightIncrement = sc.nextInt();
       
       if (heightIncrement % 2 != 0) {
-        System.out.println("Debe ser par");
+        System.out.println("Only even numbers allowed");
       }
     } while (heightIncrement % 2 != 0);
     
     
-    System.out.print("Introduzca el numero de veces que desea dibujar el reloj: ");
+    System.out.print("Enter the number of hourglass that you want: ");
     numberOfHourglass = sc.nextInt();
     
     for (int y = 0; y < numberOfHourglass; y++) {
@@ -54,28 +54,28 @@ public class SurpriseExercise {
        
         System.out.println();
        
-     }
+      }
      
-     for (int i = 0; i < height / 2; i++) {
+      for (int i = 0; i < height / 2; i++) {
        
        
-       for (int k = height / 2 - 1; k > i; k--) {
-         System.out.print(" ");
+        for (int k = height / 2 - 1; k > i; k--) {
+          System.out.print(" ");
          
-       }
+        }
        
-       for (int j = 0; j <= 2 + i * 2; j++) {    
-         System.out.print(character);
+        for (int j = 0; j <= 2 + i * 2; j++) {    
+          System.out.print(character);
          
          
-       }
+        }
        
-       System.out.println();
+        System.out.println();
        
-     }
+      }
      
-     System.out.println();
-     height += heightIncrement;
+      System.out.println();
+      height += heightIncrement;
     
     }
     
