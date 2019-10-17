@@ -3,7 +3,8 @@ This a surprise exercise from my programming subject.
 The purpouse is only to practice for our first exam.
 
 First we ask the user for some parameters.
-[Imgur Image](https://imgur.com/5OcgUnQ.png)
+![9115c648b40baf768cb0738206e36dcb](https://user-images.githubusercontent.com/52538691/67014329-f2efd080-f0f4-11e9-9fa8-85b08df917fc.png)
+
 
 
 
